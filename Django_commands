@@ -1,0 +1,54 @@
+1player with system
+registration page-throw error for existing user/regist successfully
+login page-
+<system versus user-submit button to disable>
+
+2 players:
+i login
+share link to friend
+
+
+
+python manage.py makemigrations(if any change in models,run this command followed by next cmd)
+python manage.py migrate
+python manage.py dbshell(download sqlite3 and place exe file in a directory where manage.py is)
+.schema --indent game_score
+.exit(to exit the sqlite shell)
+
+
+#Steps:
+1)C:\Users\kavis\PycharmProjects\Rps_game>python -V
+Python 3.8.2
+
+2)python3 -m pip install --upgrade pip
+
+3)pip install virtualenv
+
+4)virtualenv djenv
+
+5) cd djenv/scripts 
+>type activate command
+
+6)virtual environment is active now
+
+7)pip3 install django(install django in virtual env)
+
+ -m django --version==>to check django version
+
+8)django-admin startproject rps_gameproject
+
+9)cd rps_gameproject
+
+10)python manage.py runserver
+
+11)Now create app in the directory where manage.py file exists
+
+python manage.py startapp rps_app
+
+12)add templates folder in settings.py under TEMPLATES-DIRS[]
+
+
+
+
+
+
